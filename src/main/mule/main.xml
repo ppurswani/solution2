@@ -18,7 +18,7 @@
                 <fixed-frequency/>
             </scheduling-strategy>
         </db:listener>
-        <logger level="INFO" doc:name="Logger" doc:id="b8b6b9ca-b6e0-4b48-b585-a1043c30d7e9"/>
+        <logger level="INFO" doc:name="Logger" doc:id="b8b6b9ca-b6e0-4b48-b585-a1043c30d7e9" message="syncDbToSalesforce triggered"/>
         <ee:transform doc:name="Transform Message" doc:id="64d9a002-84fc-4e3e-9133-bd4e82e27dce">
             <ee:message>
                 <ee:set-payload><![CDATA[%dw 2.0
